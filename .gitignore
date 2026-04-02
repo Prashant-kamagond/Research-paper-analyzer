@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+!.env.example
+
+# Data directories (runtime artefacts)
+data/
+logs/
+
+# FAISS / model cache
+*.index
+*.pkl
+sentence_transformers_cache/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
