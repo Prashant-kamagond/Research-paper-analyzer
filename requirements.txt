@@ -1,0 +1,7 @@
+# Research Paper Analyzer – Root Dependencies
+# Install both backend and frontend dependencies for local development.
+
+-r backend/requirements.txt
+-r frontend/requirements.txt
+pytest>=8.2.0
+pytest-asyncio>=0.23.0
